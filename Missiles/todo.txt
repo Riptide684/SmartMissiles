@@ -1,0 +1,5 @@
+Walls shouldn't cross over
+Allow placement of start/finish
+Penalise crashing
+Check if they have finished
+Draw missiles around center position

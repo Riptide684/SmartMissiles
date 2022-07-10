@@ -1,0 +1,52 @@
+canvas {
+  border: 1px solid black;
+  position: absolute;
+}
+
+canvas.bg {
+  background-image: url('./Images/space.png');
+  background-size: 100% 100%;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  display: inline-block;
+  position: relative;
+}
+
+div.canvas_container {
+  position: absolute;
+  width: 99%;
+  height: 85%;
+}
+
+div.content {
+  padding-top: 41%;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  padding: 10px 10px;
+  touch-action: manipulation;
+  min-width: 100px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 17px;
+}

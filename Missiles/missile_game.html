@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="missile_game.css">
+    <script src="missile_game.js" defer></script>
+  </head>
+
+  <body onload='game.setup();'>
+    <div class='canvas_container' id='canvas'>
+      <canvas class='bg' id='bg'>
+    </div>
+
+    <div class='content'>
+      <div id='menu'>
+        <button onclick='if (!started && !edit_mode) {start_game();started=1;}'>Start</button>
+        <button onclick='if (started) {pause=1-pause};'>Pause</button>
+        <button onclick='if (!started) {edit();}' id='edit'>Edit</button>
+        <button onclick='reset();'>Reset</button>
+      </div>
+
+      <div>
+        <p id='info'>&emsp;&emsp;Generation: 1&emsp;&emsp;Success Rate: 0%&emsp;&emsp;Closest Distance: 0m</p>
+      </div>
+    </div>
+
+  </body>
+
+</html>
